@@ -25,13 +25,13 @@ public class Player : MonoBehaviour
         switch (playerNumber)
         {
             case 2:
-                return new[] { KeyCode.E, KeyCode.Q };
+                return new[] { KeyCode.E, KeyCode.Q, KeyCode.R };
             case 3:
-                return new[] { KeyCode.E, KeyCode.Q };
+                return new[] { KeyCode.E, KeyCode.Q, KeyCode.R };
             case 4:
-                return new[] { KeyCode.E, KeyCode.Q };
+                return new[] { KeyCode.E, KeyCode.Q, KeyCode.R };
             default:
-                return new[] { KeyCode.E, KeyCode.Q };
+                return new[] { KeyCode.E, KeyCode.Q, KeyCode.R };
         }
     }
 }

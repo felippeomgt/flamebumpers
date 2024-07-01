@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Vector2 getLastDirection() { return lastDirection; }
 
+    public void setClearState(bool value) { animator.SetBool("ClearState", value); }
+
     void setNewDirection(float x, float y)
     {
         lastDirection.x = direction.x;
